@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .header {
     background-color: black;
@@ -36,7 +36,8 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 2rem;
+    padding-right: 20px;
 }
 
 .nav-list a {
@@ -46,7 +47,7 @@ body {
 }
 
 .nav-list a:hover {
-    color: purple;
+    color: blueviolet;
 }
 
 
@@ -134,14 +135,13 @@ section:last-child {
 
 .projects-grid {
     display: block;
-    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
    
 }
 
 .project-card {
     background-color: #fafafa;
-    border: 1px solid #dddd;
+    border: 1px solid #dddddd;
     border-radius: 30px;
     padding: 8px;
     margin-bottom: 30px;
