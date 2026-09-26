@@ -1,3 +1,4 @@
+//Skills array
 let skills = [
     "HTML & CSS",
     "JavaScript",
@@ -8,7 +9,7 @@ let skills = [
     "Responsive Design"
 ];
 
-// ---------- PROJECTS ARRAY OF OBJECTS ----------
+//Projects array of objects
 let projects = [
     {
         title: "Portfolio Website",
@@ -22,12 +23,12 @@ let projects = [
     },
     {
         title: "Travel and tour website",
-        description: "A simple tarvel and tour landing page for Fire Island tours and travel .",
+        description: "A simple travel and tour landing page for Fire Island tours and travel .",
         tools: "HTML, CSS, and JavaScript"
     }
 ];
 
-// ---------- RENDER SKILLS ----------
+//Script to render skills
 let skillsListEl = document.getElementById('skills-list');
 if (skillsListEl) {
     skills.forEach(function (skill) {
@@ -37,7 +38,7 @@ if (skillsListEl) {
     });
 }
 
-// ---------- RENDER PROJECTS ----------
+//Script to render projects
 let projectsGridEl = document.getElementById('projects-grid');
 if (projectsGridEl) {
     projects.forEach(function (project) {
