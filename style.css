@@ -26,6 +26,21 @@
     background-color: rgba(0, 0, 0, 0.76);
     color: white;
 }
+#about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 3rem;
+    flex-wrap: wrap;  
+}
+
+#about-me p {
+    flex: 1;
+    min-width: 280px;
+    line-height: 1.7;
+    color: white;
+}
 #img {
     width: 15rem;
     height: 15rem;
@@ -33,5 +48,13 @@
     object-fit: cover;
     border: 4px solid #ffffff;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#skills{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3rem;
+    padding: 3rem;
+    flex-wrap: wrap;  
 }
 
