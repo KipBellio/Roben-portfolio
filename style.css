@@ -6,8 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #222;
+    background-color: white;
     padding-top: 125px;
 }
 .header {
@@ -54,17 +53,11 @@ body {
 
 
 .main {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.034);
     padding: 30px;
-    border-radius: ;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-section {
-    padding: 25px 0;
-    border-bottom: 1px solid #ddd;
+    border-radius: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 section:last-child {
@@ -77,34 +70,47 @@ section:last-child {
 .projects,
 .contact {
     font-size: 22px;
-    color: #222;
+    color: black;
     margin-bottom: 15px;
 }
 
 #about-me {
     text-align: center;
+    font-style: italic;
 }
 
 #about-me p {
-    color: #555;
     line-height: 1.7;
     margin-bottom: 20px;
 }
-
-#img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #ddd;
+.about-me{
+    font-weight: bold;
+    font-size: 30px;
 }
 
+#img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #dddddd;
+}
 
+#skills{
+    text-align: center;
+    margin-top: 30px;
+}
+.skills{
+    font-weight: bold;
+    font-style: italic;
+}
 .skills-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .skills-list li {
@@ -113,10 +119,17 @@ section:last-child {
     border-radius: 20px;
     font-size: 14px;
 }
-
+#projects{
+    text-align: center;
+    margin-top: 30px;
+}
+.projects{
+    font-style: italic;
+    font-weight: bold;
+}
 
 .projects-grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
@@ -124,8 +137,9 @@ section:last-child {
 .project-card {
     background-color: #fafafa;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 8px;
+    margin-bottom: 20px;
 }
 
 .project-card h3 {
