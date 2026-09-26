@@ -7,18 +7,18 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
-    padding-top: 125px;
+    padding-top: 120px;
 }
 .header {
     background-color: black;
     z-index: 1000;
-    padding: 8px 8px 8px 8px;
+    padding: 8px 16px;
     border-radius: 30px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 10rem;
+    gap: 1rem;
     font-weight: bold;
     position: fixed;
     top: 1rem;
@@ -29,8 +29,7 @@ body {
 #name {
     font-size: 2rem;
     color: white;
-    margin-bottom: 15px;
-    padding-top: 1rem;
+    margin-bottom: 0;
 }
 
 .nav-list {
@@ -38,7 +37,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    padding-top: 0.2rem;
 }
 
 .nav-list a {
@@ -48,7 +46,7 @@ body {
 }
 
 .nav-list a:hover {
-    color: blue;
+    color: purple;
 }
 
 
@@ -115,10 +113,15 @@ section:last-child {
 }
 
 .skills-list li {
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.63);
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 14px;
+    color: white;
+}
+.skills-list li:hover{
+    background-color: purple;
+
 }
 #projects{
     text-align: center;
