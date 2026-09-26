@@ -10,6 +10,7 @@
 .body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    align-items: center;
 }
 .nav-list{
     display: flex;
@@ -27,11 +28,11 @@
     color: white;
 }
 #about-me {
-    display: flex;
+    display:block;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3rem;
-    padding: 3rem;
+    padding: 1rem;
     flex-wrap: wrap;  
 }
 
@@ -50,7 +51,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 #skills{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: left;
     gap: 3rem;
