@@ -18,7 +18,7 @@ This is a portfolio website project showcasing who I am, my skills, projects and
 # Technologies used
 - HTML: developing the website structure
 - CSS: styling the website
-- JavaScript:
+- JavaScript: storing skills array and projects array objects
 - Github:
 
 # 
