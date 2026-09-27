@@ -5,7 +5,7 @@ Portfolio website project
 This is a portfolio website project showcasing who I am, my skills, projects and the tools used in the development of this portfolio website project.
 
 # Live demo link
-
+🔗 [View Live Demo](https://kipbellio.github.io/roben-portfolio/)
 
 # Features
 - A responsive design in all media devices
