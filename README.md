@@ -19,7 +19,7 @@ This is a portfolio website project showcasing who I am, my skills, projects and
 - HTML: developing the website structure
 - CSS: styling the website
 - JavaScript: storing skills array and projects array objects
-- Github:
+- Github: tracking changes and hosting on github pages
 
 # 
 
