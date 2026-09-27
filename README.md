@@ -29,7 +29,7 @@ This is a portfolio website project showcasing who I am, my skills, projects and
  //Alternative using vs code 
  - Open the project folder in vs code 
  - Install the live server extension
- - Open index.html and click go live
+ - Open index.html and click go live on the bottom right.
  
  # Lessons
  - During this project, i learned how javascript can be used to render items in html using by storing them in arrays and objects.
