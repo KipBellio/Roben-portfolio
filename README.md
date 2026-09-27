@@ -2,7 +2,7 @@
 Portfolio website project
 
 # Description 
-This is a portfolio website project showcasing who I am, my skills, projects and the tools used in the development of the projects.
+This is a portfolio website project showcasing who I am, my skills, projects and the tools used in the development of this portfolio website project.
 
 # Live demo link
 
