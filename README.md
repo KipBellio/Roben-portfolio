@@ -16,10 +16,10 @@ This is a portfolio website project showcasing who I am, my skills, projects and
 - A contact section with my email and github link
 
 # Technologies used
-- HTML
-- CSS
-- JavaScript
-- Github
+- HTML: developing the website structure
+- CSS: 
+- JavaScript:
+- Github:
 
 # 
 
